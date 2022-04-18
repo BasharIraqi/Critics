@@ -1,0 +1,28 @@
+<h3>Edit Critic</h3>
+<div>
+    <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+        <div>
+            <label>Name</label>
+            <input type="text" name="name" ngModel [(ngModel)]="critic.name" required>
+        </div>
+        <div>
+            <label>Writer Name</label>
+            <input type="text" name="writerName" ngModel [(ngModel)]="critic.writerName" required>
+        </div>
+        <div>
+            <label>Movie Name</label>
+            <input type="text" name="movieName" ngModel [(ngModel)]="critic.movieName" required>
+        </div>
+        <div>
+            <label>Description</label>
+            <input type="text" name="desc" ngModel [(ngModel)]="critic.desc" required>
+        </div>
+        <div>
+            <label>Total Rate</label>
+            <input type="text" name="totalRate" ngModel [(ngModel)]="critic.totalRate" required>
+        </div>
+        <div>
+            <button type="submit" [disabled]="!f.valid">Update</button>
+        </div>
+    </form>
+</div>

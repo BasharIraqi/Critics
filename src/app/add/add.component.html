@@ -1,0 +1,25 @@
+<h3>Add Critic</h3>
+
+    <form #c="ngForm" (ngSubmit)="onSubmit(c.value)">
+        <div>
+            <label>Name:</label>
+            <input type="text" name="name" ngModel #name="ngModel">
+        </div>
+        <div>
+            <label>Writer Name:</label>
+            <input type="text" name="writerName" ngModel #name="ngModel">
+        </div>
+        <div>
+            <label>Movie Name:</label>
+            <input type="text" name="movieName" ngModel #movieName="ngModel">
+        </div>
+        <div>
+            <label>Description:</label>
+            <input type="text" name="desc" ngModel #desc="ngModel">
+        </div>
+        <div>
+            <label>Total Rate:</label>
+            <input type="number" name="totalRate" ngModel #totalRate="ngModel">
+        </div>
+        <button type="submit">Submit</button>
+    </form>

@@ -1,0 +1,28 @@
+{
+  "critics": [
+    {
+      "name": "dfsv",
+      "writerName": "sdvs",
+      "movieName": "dss",
+      "desc": "svds",
+      "totalRate": "88",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "amazing",
+      "writerName": "mark",
+      "movieName": "seven",
+      "desc": "dsvcsv svsv",
+      "totalRate": 10
+    },
+    {
+      "id": 3,
+      "name": "one",
+      "writerName": "anee",
+      "movieName": "spider man",
+      "desc": "vsfvsvsvsv",
+      "totalRate": 7.5
+    }
+  ]
+}
